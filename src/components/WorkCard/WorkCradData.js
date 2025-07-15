@@ -1,6 +1,7 @@
 import portfolio from "../../assets/portfolio.png";
 import toDoList from "../../assets/toDoList.png"
 import shopee from "../../assets/shopee.png";
+import { source } from "framer-motion/client";
 
 const ProjectCardData = [
   {
@@ -8,6 +9,7 @@ const ProjectCardData = [
     title: "React Portfolio Website",
     text: "A responsive portfolio app deployed on AWS using Docker and Kubernetes. It runs on a scalable Kubernetes cluster behind an Application Load Balancer (ALB), secured with an SSL certificate via AWS ACM. The app is served over HTTPS and mapped to a custom domain using Route 53. A complete cloud-native deployment pipeline—containerized, resilient, and production-ready.",
     view: "up-in-clouds.web.app",
+    source: "https://github.com/nandkishor986/you-will-love-this-react-portfolio.git"
   },
   {
     imgsrc: toDoList,
