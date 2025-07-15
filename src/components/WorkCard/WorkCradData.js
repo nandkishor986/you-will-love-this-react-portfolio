@@ -8,7 +8,7 @@ const ProjectCardData = [
     imgsrc: portfolio,
     title: "React Portfolio Website",
     text: "A responsive portfolio app deployed on AWS using Docker and Kubernetes. It runs on a scalable Kubernetes cluster behind an Application Load Balancer (ALB), secured with an SSL certificate via AWS ACM. The app is served over HTTPS and mapped to a custom domain using Route 53. A complete cloud-native deployment pipeline—containerized, resilient, and production-ready.",
-    view: "https://lambent-begonia-08eac8.netlify.app/",
+    view: "https://elegant-jalebi-741bfe.netlify.app/",
     source: "https://github.com/nandkishor986/you-will-love-this-react-portfolio.git"
   },
   {
