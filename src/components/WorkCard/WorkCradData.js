@@ -15,7 +15,8 @@ const ProjectCardData = [
     imgsrc: toDoList,
     title: "Complete MERN Stack CI/CD & Monitoring",
     text: "A full-stack MERN app deployed on AWS using Docker, Terraform, and Kubernetes with CI/CD via Jenkins, GitOps via ArgoCD, and monitoring through Prometheus & Grafana. It runs on EKS behind a secure ALB with ACM, uses ECR for images, and is routed via Route 53 to ensure scalability, security, and production readiness.",
-    view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
+    view: "https://todo-list-app-bfed3.web.app/",
+    source: "https://github.com/nandkishor986/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project.git"
   },
   {
     imgsrc: shopee,
