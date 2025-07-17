@@ -1,5 +1,5 @@
 import portfolio from "../../assets/portfolio.png";
-import toDoList from "../../assets/toDoList.png"
+import adviceapp from "../../assets/adviceapp.png"
 import shopee from "../../assets/shopee.png";
 import { source } from "framer-motion/client";
 
@@ -12,11 +12,11 @@ const ProjectCardData = [
     source: "https://github.com/nandkishor986/you-will-love-this-react-portfolio.git"
   },
   {
-    imgsrc: toDoList,
-    title: "Complete MERN Stack CI/CD & Monitoring",
-    text: "A full-stack MERN app deployed on AWS using Docker, Terraform, and Kubernetes with CI/CD via Jenkins, GitOps via ArgoCD, and monitoring through Prometheus & Grafana. It runs on EKS behind a secure ALB with ACM, uses ECR for images, and is routed via Route 53 to ensure scalability, security, and production readiness.",
-    view: "https://todo-list-app-bfed3.web.app/",
-    source: "https://github.com/nandkishor986/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project.git"
+    imgsrc: adviceapp,
+    title: "Complete React App CI/CD & Monitoring",
+    text: "A frontend React app deployed on AWS using Docker, Terraform, and Kubernetes with CI/CD via Jenkins, GitOps via ArgoCD, and monitoring through Prometheus & Grafana. It runs on EKS behind a secure ALB with ACM, uses ECR for images, and is routed via Route 53 to ensure scalability, security, and production readiness.",
+    view: "https://advice-app-3er12.web.app/",
+    source: "https://github.com/nandkishor986/advice_app.git"
   },
   {
     imgsrc: shopee,
